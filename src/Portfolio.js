@@ -135,9 +135,8 @@ const Portfolio = () => {
                         <div className="SubHeader">Resume</div>
                         <p>This Resume is built with the framework <b>React</b>. This was my first successful web app which I tried with a model design after a few failed attempts. This, too, was created with minimal but decent CSS. I used the simple React-hook useState( ) to create the Image slider in this Resume. The code for this app can be found <a href="">here</a> </p>
 
-                        <div className="SubHeader">Resume</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo corporis ducimus voluptate veniam totam mollitia iusto doloribus eaque inventore a. Dolor rerum molestiae soluta et molestias nostrum placeat fuga alias!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo corporis ducimus voluptate veniam totam mollitia
-                            iusto doloribus eaque inventore a. Dolor rerum molestiae soluta et molestias nostrum placeat fuga alias!</p>
+                        <div className="SubHeader">SemScape</div>
+                        <p>SemScape is the pool of study materials that is useful for both universities and students. It is creted to reduce friction between students and reduce the stress during semesters. It is an open source project, and can be developed by anyone. It is the project that I am currently working on and its being created with the framework <b>Svelte </b>.</p>
                     </div>
 
 
