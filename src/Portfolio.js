@@ -130,7 +130,7 @@ const Portfolio = () => {
                         <br></br>
 
                         <div className="SubHeader" >The Flames Game</div>
-                        <p>This is a website that I created to learn <b>Svelte </b>Framework at leisure time. The backend of this site was first created in python as to play around with logics along with people who are interested in logics. Later, JavaScript Code was created  when got the idea to create a website and attached to it. This web app was created with less CSS and just straight to the point. The website can be found <a href="">here</a> and the code can be found <a href="https://github.com/artist-who-codes/Flames">here</a></p>
+                        <p>This is a website that I created to learn <b>Svelte </b>Framework at leisure time. The backend of this site was first created in python as to play around with logics along with people who are interested in logics. Later, JavaScript Code was created  when got the idea to create a website and attached to it. This web app was created with less CSS and just straight to the point. The website can be found <a href="https://master--reliable-cendol-ac7511.netlify.app/">here</a> and the code can be found <a href="https://github.com/artist-who-codes/The-Flames-Game">here</a></p>
 
                         <div className="SubHeader">Resume</div>
                         <p>This Resume is built with the framework <b>React</b>. This was my first successful web app which I tried with a model design after a few failed attempts. This, too, was created with minimal but decent CSS. I used the simple React-hook useState( ) to create the Image slider in this Resume. The code for this app can be found <a href="https://github.com/artist-who-codes/Portfolio">here</a> </p>
