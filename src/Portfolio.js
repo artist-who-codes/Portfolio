@@ -38,15 +38,18 @@ const Portfolio = () => {
 
     return (
         <div className="background">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <div className="CandN">
 
                 <div className="BlurBG">
                     <div className="NavBar">
                         <div style={{ animationName: 'fadeIn', animationDuration: '3s' }}>
-                            <a href='nohref' style={{ fontWeight: '500', fontSize: '2vw', paddingRight: '25%', textShadow: '0.2vw 0.2vw 1vw black' }}>Abirami Muthukumarasamy</a>
-                            <a href="#Skills"> Skills</a>
-                            <a href="#Projects"> Projects</a>
-                            <a href="#Contactme"> Contact Me</a>
+                            <div className="name">Abirami Muthukumarasamy</div>
+                            <div>
+                                <a href="#Skills"> Skills</a>
+                                <a href="#Projects"> Projects</a>
+                                <a href="#Contactme"> Contact Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,18 +103,20 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="Carousel">
-                            <div>
-                                <button style={{ padding: '5%', alignItems: 'center' }} onClick={handlePrevious} ><img src={previous} alt="left arrow" width='50vw' height=''></img></button>
+                            <div className="CarouselFlex">
+                                <div>
+                                    <button style={{ padding: '5%', alignItems: 'center' }} onClick={handlePrevious} ><img src={previous} alt="left arrow" width='50vw' height=''></img></button>
+                                </div>
+                                <div className="images" style={{ padding: '3%' }}>
+                                    {Images.map((slide, index) => {
+                                        return (<div key={index}> {index === Current && (<img src={slide.image} alt="" width='200vw' />)}</div>)
+                                    })}
+                                </div>
+                                <div>
+                                    <button style={{ padding: '5%', alignItems: 'center' }} onClick={handleNext}><img src={next} alt="right arrow" width='50vw' height=''></img></button>
+                                </div>
                             </div>
-                            <div style={{ padding: '3%' }}>
-                                {Images.map((slide, index) => {
-                                    return (<div key={index}> {index === Current && (<img src={slide.image} alt="" width='200vw' />)}</div>)
-                                })}
-                            </div>
-                            <div>
-                                <button style={{ padding: '5%', alignItems: 'center' }} onClick={handleNext}><img src={next} alt="right arrow" width='50vw' height=''></img></button>
-                            </div>
-                            <div style={{ padding: '10%', width: '40%' }}>
+                            <div className="picPara" >
                                 <p>These are my photography skills<br></br>These pictures are took in phone which has high camera quality</p>
                             </div>
                         </div >
@@ -159,10 +164,6 @@ const Portfolio = () => {
                             <div style={{ textAlign: "center" }}>
                                 <a href="https://www.linkedin.com/in/abirami-muthukumarasamy-1b7483227/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBLr63j4CS4mONjMDrX%2BFNQ%3D%3D"><img src='https://webstockreview.net/images/github-icon-png-8.png' width="60" alt="github"></img></a>
                                 <div style={{ paddingTop: '15%' }}><a href="https://www.linkedin.com/in/abirami-muthukumarasamy-1b7483227/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBLr63j4CS4mONjMDrX%2BFNQ%3D%3D">Check My GitHub</a></div>
-                            </div>
-                            <div style={{ textAlign: "center" }}>
-                                <a href="https://www.blogger.com/blog/posts/3867770110808596675"><img src='http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Blogger-icon.png' width="60" alt="github"></img></a>
-                                <div style={{ paddingTop: '15%' }}><a href="https://www.blogger.com/blog/posts/3867770110808596675">Check my Blog</a></div>
                             </div>
                         </div>
                     </div>
