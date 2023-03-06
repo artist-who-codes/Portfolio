@@ -36,14 +36,14 @@ html {
 
 .NavBar>div>.name {
     vertical-align: middle;
-    padding: 0% 20% 0% 5%;
+    padding: 0% 30% 0% 10%;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 3vw;
     text-shadow: 0.2vw 0.2vw 1vw black
 }
 
 .NavBar>div>div>a {
-    padding-right: 4vw;
+    padding-left: 4vw;
     vertical-align: middle;
     text-shadow: 0.2vw 0.2vw 1vw black
 }
@@ -97,8 +97,22 @@ hr {
 .Skills,
 .Projects,
 .Contactme {
-    padding: 10% 10% 10% 15%;
+    padding: 7% 7% 7% 15%;
 
+}
+
+.Projects {
+    color: #f5e1ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-Shadow: 0.2vw 0.2vw 0.5vw #631fa8;
+}
+
+.Contactme {
+    color: #f5e1ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-Shadow: 0.2vw 0.2vw 0.5vw #631fa8;
 }
 
 .Header {
@@ -119,33 +133,6 @@ hr {
     font-size: 2vw;
 }
 
-.general_skills {
-    display: flex;
-    margin-left: 7%;
-}
-
-.general_skills>div {
-    padding: 5%;
-}
-
-.Carousel {
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.CarouselFlex {
-    margin-left: 10vw;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.Carousel>.picPara {
-    padding: 10%;
-    width: 40%;
-}
-
 .Projects>p>a {
     text-decoration: underline;
 }
@@ -154,11 +141,10 @@ hr {
     display: flex;
     width: 100%;
     align-items: center;
-    margin-left: 7%;
 }
 
 .Contactme>.flex>div {
-    padding: 0% 5% 0% 5%;
+    padding: 0% 10% 0% 5%;
 }
 
 a {
@@ -180,7 +166,7 @@ a {
 @media screen and (max-width:600px) {
     .background {
         background-color: #201b25;
-        margin: -1vh;
+        margin: -3vw;
 
     }
 
@@ -193,6 +179,13 @@ a {
         padding-left: 10%;
     }
 
+    .content>div {
+        color: #f5e1ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+        text-Shadow: 0.2vw 0.2vw 0.5vw #631fa8;
+
+    }
 
     .NavBar>div {
         display: grid;
@@ -202,14 +195,14 @@ a {
         padding: 0% 15% 0% 5%;
         font-weight: 600;
         text-shadow: 0.2vw 0.2vw 1vw rgba(255, 255, 255, 0.175);
-        font-size: 5vw;
+        font-size: 9vw;
         vertical-align: middle;
         text-align: center;
         color: #942ffa;
     }
 
     .NavBar>div>div>a {
-        padding: 10% 3% 0% 10%;
+        padding: 10% 3% 0% 7%;
         vertical-align: middle;
         text-shadow: 0.2vw 0.2vw 1vw black
     }
@@ -217,7 +210,7 @@ a {
     .BlurBG {
         position: fixed;
         width: 100%;
-        padding: 5% 0% 0% 0%;
+        padding: 5% 0% 4% 0%;
         backdrop-filter: blur(7px);
     }
 
@@ -226,23 +219,23 @@ a {
     }
 
     .Abirami {
-        font-size: 6vw;
-        padding: 15% 0% 0% 10%;
+        font-size: 7vw;
+        padding: 35% 0% 0% 10%;
 
     }
 
     .description {
-        font-size: 3vw;
+        font-size: 5vw;
         padding-top: 5%;
         padding-left: 10%;
-        width: 70%
+        width: 90%
     }
 
     button {
         font-weight: 100;
         margin-left: 10%;
         color: #f5e1ff;
-        font-size: 3vw;
+        font-size: 5vw;
         padding: 3%;
         border: transparent;
         border-radius: 2vw;
@@ -264,7 +257,7 @@ a {
     }
 
     .Header {
-        font-size: 6vw;
+        font-size: 8vw;
         padding: 0% 0% 4% 0%;
     }
 
@@ -279,65 +272,30 @@ a {
     }
 
     .SubHeader {
-        font-size: 3.5vw;
-    }
-
-    .general_skills {
-        display: flex;
-        margin-left: -2%;
-    }
-
-    .general_skills>div {
-        padding: 5% 0% 0% 3%;
-        width: 20%;
-    }
-
-    .general_skills>div>img {
-        width: 10vw;
-        height: 10vw;
-    }
-
-
-    .Carousel {
-        display: grid;
-        margin-left: 0%;
-    }
-
-    .Carousel>.CarouselFlex {
-        margin: 15% 0% 0% 0%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-
-    .Carousel>div>button>img {
-        width: 5vw;
-
-    }
-
-    .Carousel>.images>div>img {
-        width: 30vw;
-    }
-
-    .Carousel>.picPara {
-        width: 100%;
-        margin-left: -10%;
+        font-size: 6vw;
     }
 
     .Projects>p>a {
         text-decoration: underline;
     }
 
-
     .Contactme>.flex {
         display: flex;
         width: 100%;
         align-items: center;
-        margin-left: 0%;
+    }
+
+    .Contactme>.flex>.Header {
+        font-size: 6vw;
     }
 
     .Contactme>.flex>div {
-        padding: 0% 5% 0% 0%;
+        padding: 0% 3% 0% 0%;
+        width: 25%;
+    }
+
+    .Contactme>.flex>div>a>img {
+        width: 60%;
     }
 
     a {
